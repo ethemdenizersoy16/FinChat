@@ -2,7 +2,7 @@
 
 FinChat is a full-stack, AI-powered financial assistant that provides real-time cryptocurrency data and interactive historical market charts. Built with a React/Vite frontend and a Python/FastAPI backend, it utilizes Anthropic's Claude API to process natural language queries and autonomously trigger backend financial tools.
 
-## ✨ Key Features
+##  Key Features
 
 * **Conversational AI:** A natural, chat-based interface that maintains context and refuses non-financial topics via strict system guardrails.
 * **Autonomous Tool Calling:** The LLM dynamically triggers Python backend functions (`get_live_price`, `get_price_history`) based on user intent.
@@ -11,7 +11,7 @@ FinChat is a full-stack, AI-powered financial assistant that provides real-time 
 * **State Hydration:** Frontend automatically fetches and restores chat history upon page refresh.
 * **Mobile-First UI:** A responsive, modern interface built with standard React and CSS/Tailwind principles.
 
-## 🏗️ Architecture & Engineering Highlights
+##  Architecture & Engineering Highlights
 
 This project overcomes several classic Large Language Model (LLM) and full-stack engineering hurdles:
 
@@ -20,7 +20,7 @@ This project overcomes several classic Large Language Model (LLM) and full-stack
 3. **Forced Tool Execution:** Bypasses typical AI "laziness" through strict JSON schema requirements and programmatic intent-routing, guaranteeing the UI receives the correct array structures to render graphs.
 4. **Markdown Interpretation:** The React frontend utilizes `react-markdown` to safely parse and style the LLM's raw text outputs into readable lists, bold text, and headers.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Frontend:**
 * React (Vite)
@@ -37,7 +37,7 @@ This project overcomes several classic Large Language Model (LLM) and full-stack
 
 ---
 
-## 🚀 Local Setup Instructions
+##  Local Setup Instructions
 
 ### 1. Prerequisites
 * Node.js and npm installed
@@ -93,7 +93,7 @@ The application will now be running locally at `http://localhost:5173`.
 
 ---
 
-## 🌐 Deployment Links
+##  Deployment Links
 
 * **Live Application:** https://fin-chat-ui.vercel.app
 * **Backend API Base URL:** https://finchat-zui4.onrender.com
