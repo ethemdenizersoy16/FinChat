@@ -1,0 +1,27 @@
+# --- Security & Secrets ---
+.env
+.env.*.local
+
+# --- Python Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# --- Database ---
+*.db
+chat_history.db
+*.sqlite3
+
+# --- Node / React Frontend ---
+node_modules/
+dist/
+build/
+.npm/
+
+# --- OS / Editor ---
+.DS_Store
+.vscode/
+.idea/
