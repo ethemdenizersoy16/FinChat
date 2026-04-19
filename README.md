@@ -95,7 +95,7 @@ The application will now be running locally at `http://localhost:5173`.
 
 ## 🌐 Deployment Links
 
-* **Live Application:** [Insert Vercel Link Here]
-* **Backend API Base URL:** [Insert Render Link Here]
+* **Live Application:** https://fin-chat-ui.vercel.app
+* **Backend API Base URL:** https://finchat-zui4.onrender.com
 
 *(Note: The backend is hosted on a free Render tier. It may take 30-60 seconds to spin up from sleep upon the first request. The SQLite database is ephemeral in this hosted environment and resets upon server sleep).*
